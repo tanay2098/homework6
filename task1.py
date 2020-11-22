@@ -1,11 +1,12 @@
 import nltk #importing natural language toolkit
-import re   #importing python regular expres
-from nltk import tokenize
+import re   #importing python regular expression
+from nltk import tokenize #import tokenize from nltk
 read_file='content.txt'
 write_file='summary.txt'
 read_mode='r'
 write_mode='w'
 
+#declaring variables
 total_character_count = 0
 total_word_count = 0
 total_word_length = 0
@@ -15,7 +16,7 @@ ending_with_ly = []
 ten_longest_words = []
 ending_with_ly_dictionary = {}
 
-nltk.download("punkt")
+nltk.download("punkt")# downloading a sentence tokenizer to divide text into list of sentences
 content=open(read_file,read_mode,encoding='utf8')
 with content:
     data = content.readlines()
