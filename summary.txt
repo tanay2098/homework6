@@ -1,63 +1,63 @@
-Total word count: 6380
-Total character count: 31318
-The average word length: 4.91
-The average sentence length: 49.08
+Total word count: 6420
+Total character count: 39411
+The average word length: 4.89
+The average sentence length: 72.99
 
 A word distribution of all words ending in “ly”
-absolutely: 1
-actively: 1
-actually: 1
-badly: 1
-closely: 1
-completely: 1
 constantly: 1
-critically: 1
+relentlessly: 1
+only: 3
+surely: 1
+viciously: 1
+immediately: 3
+previously: 2
+dramatically: 1
+importantly: 1
+simply: 1
+illegally: 2
+unlawfully: 1
+fully: 2
+wildly: 1
+fairly: 1
+exactly: 1
+incredibly: 1
+family: 6
+closely: 1
+nearly: 3
+highly: 1
+wonderfully: 1
+frankly: 1
+really: 1
+especially: 2
+actually: 1
+promptly: 1
+badly: 1
+historically: 1
+recently: 1
+properly: 1
+absolutely: 1
+financially: 1
+tragically: 1
+proudly: 1
+safely: 1
+early: 1
+completely: 1
+massively: 1
+substantially: 4
+pro-family: 1
+totally: 4
+finally: 4
+perfectly: 1
+poorly: 1
+rapidly: 3
 daily: 1
 deadly: 3
 domestically: 1
-dramatically: 1
-early: 1
+actively: 1
 entirely: 1
-especially: 2
-exactly: 1
-fairly: 1
-family: 6
-finally: 4
-financially: 1
-frankly: 1
-fully: 2
-highly: 1
-historically: 1
-illegally: 2
-immediately: 3
-importantly: 1
-incredibly: 1
-massively: 1
-nearly: 3
-only: 3
-perfectly: 1
-poorly: 1
-previously: 2
-profamily: 1
-promptly: 1
-properly: 1
-proudly: 1
-quickly: 3
-rapidly: 3
-really: 1
-recently: 1
-relentlessly: 1
-safely: 1
-simply: 1
 strongly: 2
-substantially: 4
-surely: 1
-totally: 4
-tragically: 1
-unlawfully: 1
-viciously: 1
-wildly: 1
-wonderfully: 1
+critically: 1
+quickly: 3
 
 A list of top 10 longest words in descending order:
-usmexicocanada, taxpayerfunded, recordbreaking, pharmaceutical, pennsylvania’s, groundbreaking, greatgrandfather, congratulations, administrations, administration, 
+great-grandfather, US-Mexico-Canada, administrations, record-breaking, taxpayer-funded, congratulations, record-setting, administration, administration, administration
