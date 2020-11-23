@@ -40,8 +40,8 @@ with content:
             total_sentence_length += len(sentence)
 
         ten_longest_words.extend(words)
-        ten_longest_words.sort(key=len, reverse=True)
-        ten_longest_words = ten_longest_words[:10]
+        ten_longest_words.sort(key=len, reverse=True)#sort the 10 longest words in descending order 
+        ten_longest_words = ten_longest_words[:10]# store the words in dictionary
 
     for word in set(ending_with_ly):
         no_words = ending_with_ly.count(word)
@@ -54,7 +54,6 @@ with summary:
     summary.write("The average word length: "+str(round(1.0*total_word_length/total_word_count, 2))+"\n")#average word length:    
     summary.write("The average sentence length: "+str(round(1.0*total_sentence_length/total_sentence_count, 2))+"\n")#The average sentence length:
     summary.write("\n")
-    
     summary.write('A word distribution of all words ending in “ly”\n')
     for word in ending_with_ly_dictionary.keys():
         word_freq = ending_with_ly_dictionary[word]
