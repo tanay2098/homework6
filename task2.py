@@ -14,7 +14,7 @@ for char in data:
   
 summary = open(write_file, write_mode)#opening the write file
 with summary:
-    for letter in sorted(character_dictionary.keys()): #sort the dictionary
+    for letter in sorted(character_dictionary.keys()): #sort the dictionary keys
         summary.write(f'{letter} {character_dictionary[letter]}\n')
     if len(character_dictionary) == 26:#if all 26 alphabets are there
          summary.write("\nIt has all letters.")
