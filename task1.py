@@ -33,8 +33,8 @@ with content:
             word = word.lower()
             if word.endswith("ly"):# setting the condition for words ending with ly
                 ending_with_ly.append(word)
-    # Breaking up senstences require complicated rules to be applied to using a package to do the same
-        sentences = tokenize.sent_tokenize(line)
+    
+        sentences = tokenize.sent_tokenize(line)# Using toeknize to break up text into sentence
         total_sentence_count += len(sentences)
         for sentence in sentences:
             total_sentence_length += len(sentence)
@@ -60,6 +60,5 @@ with summary:
         word_freq = ending_with_ly_dictionary[word]
         summary.write(word+": "+str(word_freq)+"\n")
     summary.write("\n")
-    
     summary.write("A list of top 10 longest words in descending order:\n")
     summary.write(", ".join(ten_longest_words))
